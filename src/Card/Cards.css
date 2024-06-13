@@ -1,0 +1,48 @@
+
+
+    .transaction{
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+      margin-top:10px ;
+      border: 2px solid #888;
+      border-radius: 5px;
+      background-color: hsl(40, 9%, 13%);
+      
+    }
+    .name{
+      font-size: 1.4rem;
+      }
+      
+      .description {
+      font-size: 1rem;
+      color: #faf7f7;
+    }
+  
+    .right{
+      text-align: right;
+    }
+    .left{
+      text-align: left;
+    }
+    .price{
+      font-size: 1.3rem;
+      ;
+    }
+  
+    .price.green{
+      color: #1c1;
+    }
+    .price.red{
+      color: #c11;
+    }
+  
+    .transaction{
+      font-size: .7rem;
+      color: #77B0AA;
+    }
+
+    .datetime{
+      font-size: 1.2rem;
+    }
+    

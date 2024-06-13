@@ -1,0 +1,81 @@
+
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #254336;
+    color:#ddd;
+    width: 700px;
+    margin: auto;
+  }
+  main{
+    max-width: 500px;
+    margin: 30px auto;
+  }
+  h1{
+    text-align: center;
+    color: #fff;
+    margin: 5%;
+  }
+  form{
+    margin-top: 30px;
+  }
+
+  form input{
+    width: 100%;
+    /* background-color: transparent; */
+    color: #6B8A7A;
+    border: 2px solid #30313d;
+    padding: 5px;
+    border-radius:5px ;
+
+  }
+  form div.basic{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  form input[type="datetime-date"]{
+    color: #777;
+  }
+
+   button{
+    width: 100%;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #B7B597;
+  }
+
+  /* div.transaction{
+    margin-top: 5px;
+  } */
+  /* div.transaction{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+
+  div.transaction div.description {
+    font-size: .7rem;
+    color: #8888;
+  }
+
+  div.right{
+    text-align: right;
+  }
+
+  div.price.green{
+    color: #1c1;
+  }
+  div.price.red{
+    color: #c11;
+  }
+
+  div.transaction{
+    font-size: .7rem;
+    color: #888;
+  }
+   */
